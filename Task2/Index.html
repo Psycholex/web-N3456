@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task2 JS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div>
+		<p id="log"></p>
+	</div>
+	
+	<div>
+		<form id="tableWizard"> <!--Форма создания таблицы-->
+			<h2>Create a table!</h2>
+			<label for="rows">How many rows would you like?</label>
+			<input type="number" name="rows" id="rows" value="1" min="1">
+			<hr>
+			<label for="columns">How many columns would you like?</label>
+			<input type="number" name="columns" id="columns" value="1" min="1">
+			<hr>
+			<button type="submit" id="submitBtn">Create table</button>
+		</form>
+	</div>
+
+	<div id="table" hidden="true"> <!--Таблица-->
+		<h2>Your table is ready for magic:</h2>	
+	</div>
+	<hr>
+
+	<div class="function" id="functionOne" hidden="true"> <!--Функция изменения границ таблицы-->
+		<form id="changeBorders">
+			<h3>Let's change table's borders!</h3>
+			<label for="borderWidth">Add width of borders in px</label>
+			<br>
+			<input type="number" name="width" id="borderWidth" value="1" min="1" max="999">
+			<hr>
+			<span>Choose style</span>
+			<br>
+			<select id="borderStyle">
+				<option value="solid">solid</option>
+				<option value="dotted">dotted</option>
+				<option value="dashed">dashed</option>
+				<option value="double">double</option>
+			</select>
+			<hr>
+			<button type="submit" id="applyBtnOne">Apply</button>
+		</form>
+	</div>
+
+	<div class="function" id="functionTwo" hidden="true"> <!--Функция добавления заголовка-->
+		<form id="addTitle">
+			<h3>Let's add title for your table!</h3>
+			<label for="title">Title:</label>
+			<br>
+			<input type="text" name="title" id="title" value="Don't text him back" maxlength="50">
+			<hr>
+			<button type="submit" id="applyBtnTwo">Apply</button>
+		</form>
+	</div>
+
+	<div class="function" id="functionThree" hidden="true">
+		<form id="deleteRow">
+			<h3>Let's delete one of the rows!</h3>
+			<label for="rowNumber">Enter number of the row u want to delete</label>
+			<br>
+			<input type="number" name="rowNumber" id="rowNumber" value="1" min="1">
+			<hr>
+			<button type="submit" id="applyBtnThree">Delete</button>
+		</form>
+	</div>
+
+	<div class="function" id="functionFour" hidden="true">
+		<form id="addSomeMagic">
+			<h3>Let's add some magic!</h3>
+			<hr>
+			<button type="submit" id="applyBtnFour">Apply</button>
+		</form>
+	</div>
+
+	<div class="function" id="functionFive" hidden="true">
+		<form id="deleteTable">
+			<h3>Do you want to delete your table?</h3>
+			<hr>
+			<button type="submit" id="applyBtnFive">Yes!</button>
+		</form>
+	</div>
+
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
