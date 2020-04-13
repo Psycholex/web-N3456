@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Task 1. Java Script</title>
+		<link rel="stylesheet" type="text/css" href="Style.css">
+	</head>
+	<script type="text/javascript" src="1.js"></script>
+	<body>
+		<section class="task" id="task2">
+			<h2>Задание 2. Основные тэги в документе</h2>
+			<div id="anchors">
+				<a href="#task3">Задание 3</a>
+	 		</div>
+	 		<hr>
+			<div id="links">
+				<a href="https://translate.google.com/?hl=ru">Google Переводчик</a>
+				<a href="https://radio.yandex.ru/">Яндекс.Радио</a>
+			</div>
+			<hr>
+			<div id="images">
+				<img src="http://pngimg.com/uploads/cat/cat_PNG50485.png" alt="cuty pug" id="pug1">
+				<img src="https://clipart-best.com/img/cat/cat-clip-art-6.png" alt="another cuty pug" id="pug2">
+				<img src="https://www.freepngimg.com/thumb/cat/37407-8-cat-hd.png" alt="another cuty pug" id="pug3"> 
+			</div>
+		</section>
+		<section class="task" id="task3">
+			<h2>Задание 3. Формы</h2>
+			<h3 id="evens"></h3>
+			<form id="formOne" name="Форма 1" class="myForm">
+				<label>Выбери свое любимое число</label>
+				<br>
+				<input type="number" value="1">
+				<br>
+				<hr>
+				<span>Это дата вашего рождения?</span>
+				<br>
+				<input type="radio" name="weather" id="yes" value="yes">
+				<label for="yes">Да</label>
+				<input type="radio" name="weather" id="no" value="no">
+				<label for="no">Нет</label>	
+				<hr>
+				<button class="showNameBtn">Показать имя формы</button>
+				<br>
+				<button class="showIdBtn">Принадлежность</button>
+				<br>
+				<button class="resetBtn">Сбросить</button>
+				<br>
+				<button class="showInputBtn">Показать количество полей</button>
+			</form>
+			<form id="formTwo" name="Форма 2" class="myForm">
+				<label>Выбери свое любимое число</label>
+				<br>
+				<input type="number" value="1">
+				<br>
+				<hr>
+				<label>Введи свой родной город</label>
+				<br>
+				<input type="text" value="Петербург">
+				<br>
+				<hr>
+				<button class="showNameBtn">Показать имя формы</button>
+				<br>
+				<button class="showIdBtn">Принадлежность</button>
+				<br>
+				<button class="resetBtn">Сбросить</button>
+				<br>
+				<button class="showInputBtn">Показать количество полей</button>
+			</form>
+			<form id="formThree" name="Форма 3" class="myForm">
+				<label>Выбери свое любимое число</label>
+				<br>
+				<input type="number" value="1">
+				<br>
+				<hr>
+				<label>Введите дату вашего рождения</label>
+				<br>
+				<input type="date">
+				<hr>
+				<button class="showNameBtn">Показать имя формы</button>
+				<br>
+				<button class="showIdBtn">Принадлежность</button>
+				<br>
+				<button class="resetBtn">Сбросить</button>
+				<br>
+				<button class="showInputBtn">Показать количество полей</button>
+			</form>
+			<form id="formFour" name="Форма 4" class="myForm">
+				<span>Будет ли завтра в Петербурге солнце?</span>
+				<br>
+				<input type="radio" name="weather" id="yes" value="yes">
+				<label for="yes">Да</label>
+				<input type="radio" name="weather" id="no" value="no">
+				<label for="no">Нет</label>
+				<br>
+				<hr>
+				<label>Введи свой родной город</label>
+				<br>
+				<input type="text" value="Петербург">
+				<hr>
+				<button class="showNameBtn">Показать имя формы</button>
+				<br>
+				<button class="showIdBtn">Принадлежность</button>
+				<br>
+				<button class="resetBtn">Сбросить</button>
+				<br>
+				<button class="showInputBtn">Показать количество полей</button>
+			</form>
+			<form id="formFive" name="Форма 5" class="myForm">
+				<label for="plans">Выбери план на сегодня</label>
+				<br>
+				<select name="plans" id="plans">
+					<option value="sleep">Выспаться</option>
+					<option value="work">Поработать</option>
+					<option value="cook">Приготовить еду:)</option>
+				</select>
+				<hr>
+				<label>Введи свой родной город</label>
+				<br>
+				<input type="text" value="Петербург">
+				<hr>
+				<span>Будет ли завтра в Петербурге солнце?</span>
+				<br>
+				<input type="radio" name="weather" id="yes" value="yes">
+				<label for="yes">Да</label>
+				<input type="radio" name="weather" id="no" value="no">
+				<label for="no">Нет</label>
+				<br>
+				<hr>
+				<label>Выбери свое любимое число</label>
+				<br>
+				<input type="number" value="1">
+				<hr>
+				<button class="showNameBtn">Показать имя формы</button>
+				<br>
+				<button class="showIdBtn">Принадлежность</button>
+				<br>
+				<button class="resetBtn">Сбросить</button>
+				<br>
+				<button class="showInputBtn">Показать количество полей</button>
+			</form>
+			<form id="formSix" name="Форма 6" class="myForm">
+				<label>Выбери свое любимое число</label>
+				<br>
+				<input type="number" value="1">
+				<hr>
+				<label for="plans">Выбери план на сегодня</label>
+				<br>
+				<select name="plans" id="plans">
+					<option value="sleep">Выспаться</option>
+					<option value="work">Поработать</option>
+					<option value="cook">Приготовить еду:)</option>
+				</select>
+				<hr>
+				<label>Введи свой родной город</label>
+				<br>
+				<input type="text" value="Петербург">
+				<hr>
+				<button class="showNameBtn">Показать имя формы</button>
+				<br>
+				<button class="showIdBtn">Принадлежность</button>
+				<br>
+				<button class="resetBtn">Сбросить</button>
+				<br>
+				<button class="showInputBtn">Показать количество полей</button>
+			</form>
+			<form id="formSeven" name="Форма 7" class="myForm">
+				<span>Будет ли завтра в Петербурге солнце?</span>
+				<br>
+				<input type="radio" name="weather" id="yes" value="yes">
+				<label for="yes">Да</label>
+				<input type="radio" name="weather" id="no" value="no">
+				<label for="no">Нет</label>
+				<br>
+				<hr>
+				<label for="plans">Выбери план на сегодня</label>
+				<br>
+				<select name="plans" id="plans">
+					<option value="sleep">Выспаться</option>
+					<option value="work">Поработать</option>
+					<option value="cook">Приготовить еду:)</option>
+				</select>
+				<hr>
+				<button class="showNameBtn">Показать имя формы</button>
+				<br>
+				<button class="showIdBtn">Принадлежность</button>
+				<br>
+				<button class="resetBtn">Сбросить</button>
+				<br>
+				<button class="showInputBtn">Показать количество полей</button>
+			</form>
+			<form id="formEight" name="Форма 8" class="myForm">
+				<label>Выбери свое любимое число</label>
+				<br>
+				<input type="number" value="1">
+				<br>
+				<hr>
+				<label>Введи свой любимый цвет</label>
+				<br>
+				<input type="text" value="Серобуромалиновый">
+				<hr>
+				<button class="showNameBtn">Показать имя формы</button>
+				<br>
+				<button class="showIdBtn">Принадлежность</button>
+				<br>
+				<button class="resetBtn">Сбросить</button>
+				<br>
+				<button class="showInputBtn">Показать количество полей</button>
+			</form>
+			<form id="formNine" name="Форма 9" class="myForm">
+				<label>Введи свой любимый цвет</label>
+				<br>
+				<input type="text" value="Серобуромалиновый">
+				<hr>
+				<label>Выбери свое любимое число</label>
+				<br>
+				<input type="number" value="1">
+				<br>
+				<hr>
+				<label>Введи свой родной город</label>
+				<br>
+				<input type="text" value="Петербург">
+				<hr>
+				<button class="showNameBtn">Показать имя формы</button>
+				<br>
+				<button class="showIdBtn">Принадлежность</button>
+				<br>
+				<button class="resetBtn">Сбросить</button>
+				<br>
+				<button class="showInputBtn">Показать количество полей</button>
+			</form>
+			<form id="formTen" name="Форма 10" class="myForm">
+				<label>Выбери свое любимое число</label>
+				<br>
+				<input type="number" value="1">
+				<br>
+				<hr>
+				<label>Введите дату вашего рождения</label>
+				<br>
+				<input type="date">
+				<hr>
+				<button class="showNameBtn">Показать имя формы</button>
+				<br>
+				<button class="showIdBtn">Принадлежность</button>
+				<br>
+				<button class="resetBtn">Сбросить</button>
+				<br>
+				<button class="showInputBtn">Показать количество полей</button>
+			</form>
+		</section>
+		
+	</body>
+	<script type="text/javascript" src="2-3.js"></script>
+	
+</html>

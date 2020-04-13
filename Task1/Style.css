@@ -1,0 +1,78 @@
+html{
+	font-family: Arial;
+}
+
+section{
+	display: inline-block;
+    border: 1px solid rgb(204, 119, 34);
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    background-color: rgba(255, 239, 213, 50%);
+}
+
+h2{
+	color: rgb(204, 119, 34);
+}
+
+h3{
+	font-size: 16px;
+}
+
+
+table{
+	margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+table td{
+	border: 1px dotted rgb(204, 119, 34);;
+	padding: 20px;
+	background-color: rgba(255, 160, 122, 20%);
+}
+
+table th{
+	border: 1px dotted rgb(204, 119, 34);;
+	padding: 20px;
+	background-color: rgba(255, 160, 122, 50%);
+	font-size: 14px;
+}
+
+
+
+button{
+	background-color: rgba(255, 160, 122, 20%);
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 2px;
+	margin: 2px;
+	font-size: 12px;
+}
+
+.myForm{
+	float: left;
+	border: 1px dotted rgb(204, 119, 34);
+	margin-right: 20px;
+	margin-top: 20px;
+	padding: 20px;
+	width: 200px;
+	height: 320px;
+	font-size: 12px;
+}
+
+#pug1{
+	height: 200px;
+	width: 250px;
+	color: white;
+}
+
+#pug2{
+	height: 200px;
+	width: 350px;
+}
+
+#pug3{
+	height: 200px;
+	width: 300px;
+}
