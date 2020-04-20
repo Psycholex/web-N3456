@@ -1,0 +1,90 @@
+html{
+	font-family: Arial;
+}
+
+section{
+	display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    background-color: rgba(240, 240, 240, 50%);
+}
+
+h2{
+	color: rgb(60, 60, 60);
+	font-size: 18px;
+	border-bottom: 1px dashed rgba(60, 60, 60, 50%);
+}
+
+h3{
+	font-size: 18px;
+	color: rgba(0, 191, 255, 100%)
+}
+table{
+	margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+table td{
+	border: 1px solid rgb(60, 60, 60);
+	padding: 10px;
+	background-color: rgba(240, 240, 240, 100%);
+	text-align: center;
+	height: 200px;
+
+}
+
+table th{
+	border: 1px solid rgb(60, 60, 60);
+	padding: 10px;
+	background-color: rgba(180, 180, 180, 90%);
+	font-size: 14px;
+}
+
+button{
+	background-color: rgba(0, 191, 255, 20%);
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 2px;
+	margin: 2px;
+	font-size: 16px;
+	height: 50px;
+	width: 100px;
+	display: inline-block;
+}
+button:hover {
+	background-color: rgba(0, 191, 255, 60%);
+}
+
+.myImage{
+	width: 300px;
+	height: 150px;
+}
+
+a{
+	display: block;
+}
+a:hover {
+	color: black;
+}
+
+.btnCancel{
+	float: right;
+	width: 50px;
+}
+
+.btnSendAnswer{
+	display: block;
+}
+
+.myIcon{
+	width: 20px;
+	height: 20px;
+}
+
+textarea{
+	resize: none;
+	width: 80%;
+	height: 50px;
+}

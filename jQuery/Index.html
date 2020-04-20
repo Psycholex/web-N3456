@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Task</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<section class="task" id="task1">
+		<div id="article">
+			<h2>Задание 1. Оформление и формы с jQuery</h2>
+			<a href="https://paraparadigm.tumblr.com/post/187960316969/main-takeaways-from-stephen-kings-on-writing" class="myAnchor">Полный текст статьи</a>
+			<h3>Main takeaways from Stephen King’s book on writing</h3>
+			<p>If you haven’t read Stephen King’s book on writing, here are the most useful tips i found after completion:</p>
+			<h4 class="item">• Write your first draft “with the door closed”</h4>
+			<p class="myParagraph">That means don’t show it to friends, family, tumblr, etc. until it’s finished to its completion. the second draft is when you can bring it into the light. just get the words down on paper and don’t worry about editing it until it’s all out of your system.</p>
+			<h4 class="item">• The road to hell is paved with adverbs</h4>
+			<p class="myParagraph">Everyone loves using adverbs in their work, but it’s often the sign of lazy writing or the inability to express what you’re trying to say. for the first draft, it doesn’t matter; on the second draft, try to eliminate as many as you can and rewrite the sentence to work without it.</p>
+		</div>
+		<div id="articleForm">
+			<form class="myForm">
+				<label>Поделитесь своим мнением о статье</label>
+				<br>
+				<textarea></textarea>
+				<br>
+				<span>Была ли вам полезна статья?</span>
+				<br>
+				<input type="radio" name="weather" id="yes" value="yes">
+				<label for="yes">Да</label>
+				<input type="radio" name="weather" id="no" value="no">
+				<label for="no">Нет</label>	
+				<button class="btnSendAnswer">Отправить ответ</button>
+			</form>
+		</div>
+	</section>
+	<section class="task" id="task2">
+		<h2>Задание 2. Ссылки </h2>
+		<button class="btnCancel"><img src="Image/cancelBtn.png" clas="myIcon"></button>
+		<div id="anchors">
+			<a href="http://translate.google.com/?hl=ru">Google Переводчик</a>
+			<a href="https://radio.yandex.ru/">Яндекс.Радио</a>
+			<a href="https://ru-ru.facebook.com/">Facebook</a>
+			<a href="https://colorscheme.ru/html-colors.html">HTML цвета</a>
+			<a href="https://skyeng.ru/">Онлайн-школа Skyeng</a>
+			<a href="http://ww3.safestyle-windows.co.uk/the-secret-door/">The Secret Door</a>
+			<a href="https://itmo.ru/ru/">Университет ИТМО</a>
+		</div>
+	</section>
+	<section class="task" id="task3">
+		<h2>Задание 3. Таблица с анимацией</h2>
+		<div id="table">
+			<table>
+				<tr>
+					<th>Элемент</th>
+					<th>Анимация</th>
+				</tr>
+				<tr>
+					<td><img src="Image/img1.jpg" class="myImage" id="img1"></td>
+					<td>
+						<button class="btnFadeIn">Метод .fadeIn()</button>
+						<button class="btnFadeOut"> Метод .fadeOut()</button>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="Image/img2.jpg" class="myImage" id="img2"></td>
+					<td><button class="btnFadeToggle">Метод .fadeToggle()</button></td>
+				</tr>
+				<tr>
+					<td><img src="Image/img3.jpeg" class="myImage" id="img3"></td>
+					<td><button class="btnSlideToggle">Метод .slideToggle()</button></td>
+				</tr>
+				<tr>
+					<td><img src="Image/img4.jpg" class="myImage" id="img4"></td>
+					<td>
+						<button class="btnAnimate">Метод .animate()</button>
+						<button class="btnResetAnimate">Вернуть</button>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="Image/img5.jpg" class="myImage" id="img5"></td>
+					<td>
+						<button class="btnHide">Метод .hide()</button>
+						<button class="btnShow">Метод .show()</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="Script.js"></script>
+</html>
