@@ -1,0 +1,74 @@
+header {    
+    flex-grow: 0;
+}
+
+footer {
+    flex-grow: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.card {
+    width: 13rem;
+}
+
+.btn {
+    white-space: normal;
+}
+tr:first-child td { 
+    text-align: center;
+}
+
+tr > td {
+    width: 200px;
+    min-width: 200px;
+}
+tr > td:first-child { 
+    width: 50px; 
+    min-width: 50px;
+    text-align: center;
+}
+table.table-responsive {
+    width: auto;
+    border: none;
+}
+
+#map {
+    height: 65vh;
+    width: 80vw;
+  }
+
+.carousel-inner img {
+    height: 500px;
+    width: auto;
+  }
+
+  .car-text {
+      background-color: rgba(73, 72, 72, 0.733);
+      padding: 0 10px;
+      padding-top: 5px;
+      padding-bottom: 20px;
+  }
+
+  .hhh{
+      margin: 0;
+  }
+
+  .tsvet{
+    background-color: rgba(114, 112, 112, 0.733);
+    color: rgb(238, 238, 238);
+    font-weight: bold;
+  }
+
+  .shir{
+      height: 166px;
+  }
